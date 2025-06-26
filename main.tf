@@ -1,6 +1,5 @@
 resource "random_pet" "submodule" {
   keepers = {
-    # Generate a new pet name each time
     time = timestamp()
   } 
 }
